@@ -1,92 +1,32 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Plataforma para ONGs com projetos, cadastro e doações.">
-  <title>Projetos - ONG</title>
-  <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body class="layout">
-  
-<header class="header">
-  <div class="container navbar">
-    <a class="brand" href="index.html">Plataforma ONGs</a>
-    <nav class="nav-links">
-      <a  href="index.html">Início</a>
-      <a aria-current="page" href="projetos.html">Projetos</a>
-      <div class="dropdown">
-        <span class="dropdown-toggle">Mais ▾</span>
-        <div class="dropdown-menu">
-          <a class="btn btn-outline" href="cadastro.html">Cadastro</a>
-          <a class="btn btn-outline" href="#contato">Contato</a>
-        </div>
-      </div>
-    </nav>
-    <button class="hamburger" aria-label="Abrir menu"><span></span></button>
-  </div>
-  <div class="container mobile-menu">
-    <a href="index.html">Início</a>
-    <a href="projetos.html">Projetos</a>
-    <a href="cadastro.html">Cadastro</a>
-    <a href="#contato">Contato</a>
-  </div>
-</header>
-
-  <main class="main">
-    <div class="container">
-      
 <h1>Projetos Sociais</h1>
 <div class="grid grid-12">
-  <!-- Example project card -->
-  <article class="card col-12 md:col-6 lg:col-4">
-    <header class="card-header">Educação para Todos <span class="badge info">Educação</span></header>
-    <img src="./assets/images/projeto1.png" alt="Projeto Educação para Todos">
-    <p class="mt-1">Promove a educação em comunidades carentes por meio de reforço escolar.</p>
-    <div class="card-footer">
-      <a class="btn btn-primary" href="#">Saiba mais</a>
-      <button class="btn btn-outline" data-toast>Contribuir</button>
-    </div>
-  </article>
-  <article class="card col-12 md:col-6 lg:col-4">
-    <header class="card-header">Alimento Solidário <span class="badge success">Assistência</span></header>
-    <img src="./assets/images/projeto2.png" alt="Projeto Alimento Solidário">
-    <p class="mt-1">Distribuição de cestas básicas e refeições solidárias.</p>
-    <div class="card-footer">
-      <a class="btn btn-primary" href="#">Saiba mais</a>
-      <button class="btn btn-outline" data-toast>Contribuir</button>
-    </div>
-  </article>
-  <article class="card col-12 md:col-6 lg:col-4">
-    <header class="card-header">Saúde em Movimento <span class="badge warn">Saúde</span></header>
-    <img src="./assets/images/projeto3.png" alt="Projeto Saúde em Movimento">
-    <p class="mt-1">Mutirões de exames e vacinação itinerante.</p>
-    <div class="card-footer">
-      <a class="btn btn-primary" href="#">Saiba mais</a>
-      <button class="btn btn-outline" data-toast>Contribuir</button>
-    </div>
-  </article>
+    <article class="card col-12 md:col-6 lg:col-4">
+        <header class="card-header">Educação para Todos <span class="badge info">Educação</span></header>
+        <img src="./assets/images/projeto1.png" alt="Projeto Educação para Todos">
+        <p class="mt-1">Promove a educação em comunidades carentes por meio de reforço escolar.</p>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="#">Saiba mais</a>
+            <button class="btn btn-outline" data-toast>Contribuir</button>
+        </div>
+    </article>
+    <article class="card col-12 md:col-6 lg:col-4">
+        <header class="card-header">Alimento Solidário <span class="badge success">Assistência</span></header>
+        <img src="./assets/images/projeto2.png" alt="Projeto Alimento Solidário">
+        <p class="mt-1">Distribuição de cestas básicas e refeições solidárias.</p>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="#">Saiba mais</a>
+            <button class="btn btn-outline" data-toast>Contribuir</button>
+        </div>
+    </article>
+    <article class="card col-12 md:col-6 lg:col-4">
+        <header class="card-header">Saúde em Movimento <span class="badge warn">Saúde</span></header>
+        <img src="./assets/images/projeto3.png" alt="Projeto Saúde em Movimento">
+        <p class="mt-1">Mutirões de exames e vacinação itinerante.</p>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="#">Saiba mais</a>
+            <button class="btn btn-outline" data-toast>Contribuir</button>
+        </div>
+    </article>
 </div>
 
-    </div>
-  </main>
-  <footer id="contato">
-    <p>&copy; 2025 ONG - Todos os direitos reservados.</p>
-  </footer>
-
-  <!-- Toast Global -->
-  <div class="toast" role="status">Ação realizada com sucesso.</div>
-  <!-- Modal Global -->
-  <div class="modal-backdrop" aria-hidden="true">
-    <div class="modal" role="dialog" aria-modal="true" aria-label="Janela modal">
-      <h3 class="mb-1">Confirmação</h3>
-      <p>Tem certeza que deseja prosseguir?</p>
-      <div class="mt-2">
-        <button class="btn btn-outline" data-modal-close>Cancelar</button>
-        <button class="btn btn-primary" data-modal-close>Confirmar</button>
-      </div>
-    </div>
-  </div>
-  <script src="./js/ui.min.js"></script>
-</body>
-</html>
+<div class="toast" role="status">Ação realizada com sucesso.</div>
